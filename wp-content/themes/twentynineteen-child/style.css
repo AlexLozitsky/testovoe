@@ -1,0 +1,59 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://en-gb.wordpress.org/themes/twentynineteen/
+Author: ChildThemeWP.com
+Author URI: https://childthemewp.com
+Description: My WordPress Twenty Nineteen child theme.
+Template: twentynineteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: twentynineteen-child
+*/
+#pagin {
+    height: 50vh;
+}
+.h-25 {
+    height: 25px;
+}
+
+/* =Index pagination
+----------------------------------------------- */
+
+/* The containing box with a nice white background */
+.pagination {
+    font-family: sans-serif;
+    padding: 1em;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}
+
+/* Remove bullets and list indentation */
+.pagination ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Give each link and the current item some padding to make them easy to click */
+a.page-numbers,
+span.page-numbers {
+    padding: .3em .7em;
+}
+
+/* Link hover state */
+a:hover.page-numbers {
+    color: #000;
+
+}
+
+/* Current page bold and dark */
+.pagination .current {
+    font-weight: bold;
+    color: #000;
+}
+
+.pagination a , .pagination span{
+    padding: .3em .7em;
+}
